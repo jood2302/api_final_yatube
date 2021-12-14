@@ -3,7 +3,6 @@ from rest_framework.exceptions import ParseError
 from rest_framework.relations import SlugRelatedField
 from rest_framework.validators import UniqueTogetherValidator
 
-
 from posts.models import Comment, Follow, Group, Post, User
 
 
